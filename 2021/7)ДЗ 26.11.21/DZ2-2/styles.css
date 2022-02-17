@@ -1,0 +1,35 @@
+
+ul{
+	list-style-position: inside;
+	list-style-type: none;
+}
+li::after{
+	content: "х";
+	color: red;
+	padding-left: 15px;
+}
+li:nth-child(odd){
+	background-color: #a5ccda;
+}
+li:nth-child(even){
+	background-color: #add8e6;	
+}
+li:nth-child(2),
+li:nth-child(5),
+li:nth-child(11){
+	background-color: #e2e2e2;
+	list-style-image: url("img/checked_16.png");
+}
+li:nth-child(1),
+li:nth-child(3),
+li:nth-child(4),
+li:nth-child(6),
+li:nth-child(7),
+li:nth-child(8),
+li:nth-child(9),
+li:nth-child(10),
+li:nth-child(12){
+	list-style-image: url("img/unchecked_16.png");
+	padding-right: 15px;
+}
+

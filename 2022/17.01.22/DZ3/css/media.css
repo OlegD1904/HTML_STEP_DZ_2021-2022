@@ -1,0 +1,151 @@
+@media (min-width:600px) and (max-width: 900px){
+
+	.container_5{
+		display: block;
+		width: 1100px;
+		height: 1170px;
+		padding-top: 3px;
+	}
+	.container_1{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding-left: 26px;
+	}
+	.container_2{
+		width: 100%;
+	}
+	.container_1 input {
+		width: 63%;
+		margin: 24px 0px 0px 66px;
+	}
+	.container_1_1{
+		display: flex;
+		width: 69%;
+	}
+	.container_1_1 input {
+		width: 46%;
+		margin-left: 32px;
+	}
+	.my1{
+		margin-left: -45px
+	}
+	.container_5 img{
+		width: 40px;
+	}
+	img{		
+		padding-top: 13px;
+	}
+	.container_2{
+		display: flex;
+		width: 80%;
+		justify-content: space-between;
+		margin-top: -20px;
+	}
+	.container_2 p{
+		padding-left: 45px;
+	}
+	.container_1 p{
+		padding-left: 2px;
+	}
+	.container_2_1{
+		display: block;
+		width:400px ;
+	}
+	.container_2_1 input{
+		width: 80%;
+		margin-left: 45px;
+	}
+	.container_2_2 input{
+		width: 80%;
+		margin-top: 31px;
+	}
+	.container_2_2{
+		display: block;
+		width:400px ;
+	}
+	.container_3{
+		height: 315px;
+	}
+	.SUBMIT{
+		margin: 116px 0px 0px 558px;
+	}
+
+}
+@media (max-width: 599px){
+
+	.container_5{
+		display: block;
+		width: 723px;
+		height: 1200px;
+		padding-top: 3px;
+	}
+
+	.container_1{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding-left: 26px;
+		margin-top: 81px;
+
+	}
+	.container_1 input {
+		width: 63%;
+		margin: 24px 0px 0px 66px;
+	}
+	
+
+	.container_1_1{
+		display: block;
+		width: 80%;
+		margin-top: -18px;
+	}
+	.container_1_1 input{
+		width: 79%;
+		padding-left: 20px;
+		margin-left: 67px;
+		padding-top: 12px;
+	}
+	.container_2{
+		display: block;
+		width: 80%;
+		height: 440px;
+		margin-top: 26px;
+
+	}
+	.container_2_1 {
+		display: block;
+		width: 80%;
+		height: 160px;
+		margin-left: 51px;
+	}
+	.container_2_2 {
+		display: block;
+		width: 86%;
+		margin-left: 50px;
+	}
+	.container_2_1 input{
+		width: 105%;
+		padding-left: 27px;
+
+	} 
+	.container_2_2 input{
+		width: 97%;
+		padding-left: 25px;
+	} 
+	.container_3{
+		display: block;
+		width: 100%;
+		height: 100px;
+
+	}
+	.SUBMIT{
+		margin: 120px 0px 0px 286px;
+
+	}
+
+
+
+
+
+}

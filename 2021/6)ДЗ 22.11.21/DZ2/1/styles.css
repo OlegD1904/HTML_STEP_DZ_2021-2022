@@ -1,0 +1,37 @@
+.mnu ol{
+	background-color: #ed9eae;
+}
+.mnu ol li{
+	background-color: #c66376;
+	margin: 5px 20px;
+	padding-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	list-style-position: inside;
+	color: white;
+	
+}
+.one{
+
+}
+.two{
+
+}
+.three{
+
+}
+.four{
+
+}
+.five{
+
+}
+.one,.two,.three,.four,.five{
+	color: white;
+	background-color: #9e354a;
+	margin: 5px 20px;
+
+	width: 120px;
+	
+
+}

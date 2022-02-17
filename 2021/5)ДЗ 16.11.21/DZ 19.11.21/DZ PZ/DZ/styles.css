@@ -1,0 +1,82 @@
+body{
+	background:# f5f5f5;
+}
+.one{
+	color: #f8faf9;
+	background-color: #923158;
+	width: 100%;
+	height: 110px;
+		
+
+}
+.my,.my1,.my2{
+	display: inline-block;
+}
+.two{
+	color: #f8faf9;
+	background-color: #6e1237;
+	width: 100%;
+	height: 67px;
+	position:relative;
+	top: 2%;
+
+
+}
+.my{
+	position: relative;
+	width: 312px;
+	height: 325px;
+
+
+}
+.my_one{
+	background-color: #b65b80;
+	color: #f8faf9;
+	width: 310px;
+	height: 107px;
+	
+}
+.my_two{
+	background-color: #b65b80;
+	color: #f8faf9;
+	width: 310px;
+	height: 180px;
+	position: absolute;
+	bottom: 2px;
+
+}
+.my1{
+    background-color: #b65b80;
+	color: #f8faf9;
+	width: 833px;
+	height: 411px;
+}
+.my1_one{
+	background-color: #db92af;
+	color: #f8faf9;
+	width: 679px;
+	height: 126px;
+
+}
+.my1_two{
+	background-color: #db92af;
+	color: #f8faf9;
+	width: 679px;
+	height: 126px;
+
+
+}
+.my2{
+	background-color: #db92af;
+	color: #b65b80;
+	width: 679px;
+	height: 155px;
+
+}
+.four{
+	background-color: #6e1237;
+	color: #f8faf9;
+	width: 100%;
+	height: 67px;
+
+}

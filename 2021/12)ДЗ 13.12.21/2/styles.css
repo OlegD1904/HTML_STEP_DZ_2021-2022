@@ -1,0 +1,37 @@
+.cat {
+	list-style-type: none;
+	display: block;
+	width: 35%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 10px;
+	float: right;
+}
+img{
+	width: 100%;
+	border-radius: 10px 10px 10px 10px;
+}
+ul li{
+	display: block;
+	margin: 10px;
+}
+
+.my{
+	display: block;
+	width: 60%;
+
+}
+.my1{
+	display: block;
+	width: 60%;
+
+}
+
+.my,.my1{
+	display: block;
+	width: 60%;
+	text-align: justify;
+	font-size: 26px;
+	
+}

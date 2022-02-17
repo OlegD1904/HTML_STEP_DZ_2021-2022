@@ -1,0 +1,64 @@
+body,ul{
+	margin: 0;
+	padding: 0;
+	font-family: Arial,sans-serif;
+}
+nav{
+	position: fixed;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	background-color: #8a8a8a;
+}
+.menu{
+	color: #fff;
+	padding-left: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+li:first-child{background-image: url(../../OneDrive/ОБУЧЕНИЕ/ШАГ/HTML5 CSS3/DZ/2021/8) DZ 27.11.21/27.11.21/DZ 29.11.21/icons/edit.png);}
+li:nth-child(2){background-image: url(../../OneDrive/ОБУЧЕНИЕ/ШАГ/HTML5 CSS3/DZ/2021/8) DZ 27.11.21/27.11.21/DZ 29.11.21/icons/favorites.png);}
+li:nth-child(3){background-image: url(../../OneDrive/ОБУЧЕНИЕ/ШАГ/HTML5 CSS3/DZ/2021/8) DZ 27.11.21/27.11.21/DZ 29.11.21/icons/history.png);}
+li:nth-child(4){background-image: url(../../OneDrive/ОБУЧЕНИЕ/ШАГ/HTML5 CSS3/DZ/2021/8) DZ 27.11.21/27.11.21/DZ 29.11.21/icons/security.png);}
+li:last-child{background-image: url(../../OneDrive/ОБУЧЕНИЕ/ШАГ/HTML5 CSS3/DZ/2021/8) DZ 27.11.21/27.11.21/DZ 29.11.21/icons/settings.png);}
+
+
+
+li{
+	background-size: 80px;
+	background-position: 17px 10px;
+	background-repeat: no-repeat;
+}
+li a{
+	width: 300px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+li a p{
+	padding: 36px 105px;
+
+}
+
+
+
+
+
+
+
+
+
+
+main{
+	width: 80%;
+	position: relative;
+	left: 200px;
+	padding-top: 30px;
+}
+main p{
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #2e2e30;
+}

@@ -1,0 +1,195 @@
+/*Блок №1*/
+.navbar-brand {
+	display: flex;
+	align-items: center; 
+}
+.navbar-brand p{
+	font-size: 60px;
+	font-family: 'Jokerman';
+	color: rgb(80, 148, 242);
+	line-height: 1.2;
+	padding-left: 40px;
+}
+.navbar-brand img{
+	width: 44px;
+	height: 44px;
+}
+.navbar-expand-md .navbar-collapse {
+	justify-content: flex-end;
+}
+.navbar-expand-md .navbar-collapse a {
+	font-size: 25px;
+	font-family: "Jokerman";
+	color: rgb(108, 108, 108);
+	line-height: 1.2;
+	text-decoration: none;
+	padding: 20px;
+}
+.navbar-expand-md .navbar-collapse li {
+	box-sizing: border-box;
+}
+.navbar-expand-md .navbar-collapse a:hover{
+	border-bottom: 3px solid #5094f2;
+}
+li{
+	list-style-type: none;
+}
+/*Блок №2*/
+
+.bg_1{
+	background-image: url(../img/bg_header.png);
+	height: 479px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.carousel-item{
+	display: flex !important;
+	align-items: center;
+	margin-top: 40px;
+}
+.carousel-fade{
+	width: 100%;
+}
+.col-md-5{
+	padding-left: 69px;
+}
+.col-md-5 li{
+	font-size: 18px;
+	font-family: "Stylus BT";
+	color: rgb(255, 255, 255);
+	line-height: 1.01;	
+	margin-top: 30px;
+}
+.col-md-5 p {
+	font-size: 41px;
+	font-family: "Stylus BT";
+	color: rgb(255, 255, 255);
+	line-height: 1.01
+}
+.col-md-5 a {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 24px;
+	font-family: "StylusBT";
+	color: rgb(255, 255, 255);
+	line-height: 1.987;
+	text-align: left;
+	text-decoration: none;
+	background-color: #5094f2;
+	width: 50%;
+	height: 100%;
+}
+
+
+.col-md-5 li a::before{
+	content: url("../img/sign.png");
+	width: 22px;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+.carousel-control-next-icon {
+	background-image: url("../img/1.png");
+	width: 25px;
+	height: 63px;
+}
+.carousel-control-prev-icon {
+	background-image: url("../img/2.png");
+	width: 25px;
+	height: 63px;
+}
+.carousel-control-next, .carousel-control-prev {
+	width: 2%;
+}
+.carousel-control-prev {
+	margin-left: -40px;
+}
+.carousel-control-next {
+
+	margin-right: -40px;
+}
+.bg_2{
+	background-image: url("../img/zubu.png");
+	height: 8px;
+	background-repeat: repeat;	
+}
+
+/*Блок №3*/
+
+.my ul{
+	padding-top: 24px;
+}
+.my p{
+	font-size: 28px;
+	font-family: "Stylus BT";
+	color: rgb(80, 148, 242);
+	line-height: 1.571;
+	text-align: center;
+}
+.my li{
+	font-size: 18px;
+	font-family: "Segoe Print";
+	color: rgb(144, 144, 144);
+	line-height: 1.2;
+	text-align: center;
+}
+.my img{
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
+/*Блок №4*/
+.Shopping_2  li{
+	width: 100%;
+	padding-left: 16px;
+}
+
+.Shopping p{	
+	font-size: 50px;
+	font-family: "Jokerman";
+	color: rgb(77, 142, 215);
+	line-height: 0.9;
+	text-align: left;
+	text-shadow: 0px 9px 0px rgba(122, 130, 161, 0.37);
+}
+.Shopping ul li{
+	font-size: 16px;
+	font-family: "Stylus BT";
+	color: rgb(144, 144, 144);
+	line-height: 2.25;
+	text-align: left;
+}
+.Shopping_1 p{
+	font-size: 30px;
+	font-family: "Stylus BT";
+	color: rgb(111, 113, 115);
+	line-height: 1.5;
+	text-shadow:none;
+	text-align: center;
+
+}
+.bg_3{
+	border-bottom: 2px solid #e5e5e5;
+}
+.Footer{
+	height: 90px;
+}
+.Footer p{
+	font-size: 25px;
+	font-family: "Algerian";
+	color: rgb(144, 144, 144);
+	line-height: 1.44;
+	text-align: center;
+	padding-top: 20px;
+}
+.navbar-light .navbar-toggler-icon {
+	background-image: url("../img/mnu_button.png");
+}
+.Shopping_2{
+	display: block;	
+}
+
+
+

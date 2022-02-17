@@ -1,0 +1,56 @@
+@media (max-width: 599px){
+	.img,.my2,.my3,.my4,.my5{
+		width: 50%;
+		display: block;
+	}
+	.my{
+		font-size: 9px;
+	}
+	.my1 ul li{
+		font-size: 25px;
+	}
+
+	img{
+		width: 15%;
+		}
+	.img{
+		display: block;
+		position: absolute;
+		margin: -10px;
+		top: 10px;
+		left:-30px;
+
+
+	}	
+	.my2{
+		display: block;
+		position: absolute;
+		top: 0px;
+		left: 40%;
+
+
+	}	
+	.my3{
+		display: block;
+		position: absolute;
+		top: 30px;
+		left: 10%;
+
+	}
+	.my4{
+		display: block;
+		position: absolute;
+		top: 30px;
+		left: 40%;
+
+	}
+	.my5{
+		display: block;
+		position: absolute;
+		top: 0px;
+		left: 10%;
+
+	}
+
+
+}

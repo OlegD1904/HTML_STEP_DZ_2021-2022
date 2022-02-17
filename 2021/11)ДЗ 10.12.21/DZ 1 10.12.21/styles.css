@@ -1,0 +1,55 @@
+.my{
+	display: block;
+	position: relative;
+	width: 600px;
+	height: 600px;
+	border: 5px solid #008b8b;
+	border-radius: 50%;
+}
+.hour{
+	display: block;
+	position: absolute;
+	width: 5px;
+	height: 150px;
+	top: 50%;
+	left: 50%;
+	background-color:#008b8b ;
+	animation: 60s hour infinite;
+	transform-origin: 0% 0%;
+
+
+}
+.minutes{
+	display: block; 
+	position: absolute;
+	width: 5px;
+	height: 250px;
+	top: 50%;
+	left: 50%;
+	background-color:#008b8b ;
+	animation: 30s minutes infinite;
+	transform-origin: 0% 0%;
+
+}
+.centre{
+	display: block;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	top: 49%;
+	left: 49%;
+	background-color:#008b8b ;
+	border: 1px solid #008b8b;
+	border-radius: 50%;
+
+
+}
+@keyframes hour{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+@keyframes minutes{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}	
+
